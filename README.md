@@ -13,18 +13,17 @@ La plataforma permite visualizar, organizar y filtrar los pokemones a través de
 Como etapa inicial del proceso de desarorllo y con el fin de determinar las necesidades de nuestros usuarios, realizamos una encuesta inicial que nos permitió determinar cuáles eran las formas de interacción de los usuarios con el juego Pokemon Go, determinando de este punto de partida posibles aspectos a complementar para mejorar la experiencia de identificación de los diversos pokemones que existen dentro de la mencionada plataforma.
 
 
-
 ### HISOTRIA DE USUARIO #1 VISUALIZAR:
-
+(https://github.com/NattaBravo/BOG005-data-lovers/blob/Pokemon-V1/src/css/Historia%20de%20usuario%20%231.JPG?raw=true)
 
 ### HISOTRIA DE USUARIO #2 ORDENAR:
-
+(https://github.com/NattaBravo/BOG005-data-lovers/blob/Pokemon-V1/src/css/Historia%20de%20usuario%20%232%20-%20Ordenar.JPG?raw=true)
 
 ### HISOTRIA DE USUARIO #1 FILTRAR:
-
+(https://github.com/NattaBravo/BOG005-data-lovers/blob/Pokemon-V1/src/css/Historia%20de%20usuario%20%233%20-%20Filtrar.JPG?raw=true)
 
 ### HISOTRIA DE USUARIO #1 CALCULAR:
-
+(https://github.com/NattaBravo/BOG005-data-lovers/blob/Pokemon-V1/src/css/Historia%20de%20usuario%20%234%20-%20Calcular.JPG?raw=true)
 
 
 ### Cómo crees que el producto que estás creando está resolviendo sus problemas.
@@ -33,8 +32,6 @@ Esta plataforma buscará brindar la información de manera amena, haciendo uso d
 
 #### Prototipo de baja fidelidad
 Se realizó un primer boceto a lápiz que condensó la idea principal de la sigiente manera:
-
-
 
 #### Prototipo de alta fidelidad
 A partir del borrador anterior, durante el proceso de diseño del prototipo de alta fidelidad tuvimos una primeta etapa que fue posteriormente perfeccionada a través del feedback de algunas compañeras dentro de distintos espacios del proceso de formación. 

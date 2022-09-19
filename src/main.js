@@ -73,9 +73,6 @@ function showData(infoPokemon) {
   }
 }
 
-
-
-
 window.addEventListener("load", showData(infoPokemon));
 
 /// MENU HAMBURGUESA
@@ -92,8 +89,13 @@ navWrapper.addEventListener('click', e => {
   if (e.target.id === 'nav') {
     navWrapper.classList.remove('show')
     toggleButton.classList.remove('close')
+  } else {
+    navWrapper.classList.remove('show')
+    toggleButton.classList.remove('close')
   }
 });
+
+
 
 ///
 
@@ -142,9 +144,6 @@ function showRegionFilter() {
       const showBoxTwo = document.querySelector(".selectorBox");
       showBoxTwo.innerHTML = ""
       showData(arrayFilter);
-
-
-
     }
   });
 }
