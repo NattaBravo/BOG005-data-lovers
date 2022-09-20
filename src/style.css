@@ -1,0 +1,402 @@
+* {margin: 0;}
+
+h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    padding: 2%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p{
+    font-family: "montserrat";
+    font-size: 130%;
+}
+
+#enterHere {
+  background-color: #127E6E;
+  color: aliceblue;
+  font-size: 20px;
+  padding: 15px;
+  padding-right: 30px;
+  padding-left: 30px;
+  border-radius: 50px;  
+  border-color: aliceblue;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.absolutePageHome {
+  width: 100%;
+  height: 100hv;
+  right: 0;
+  position: absolute;
+  margin-top: 10%;
+}
+
+#videoContainer {
+  position: relative;
+}
+
+video-videoContainer {
+  top:70px;
+  left:0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1;
+
+
+}
+
+.mainHeader{
+  height: 70px;
+  display: flex;
+  align-items: center;
+  padding: 0 0.4rem;
+  background-color: #127E6E;
+  }
+  .mainLogo{
+    block-size:40px; 
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .mainNav{
+    position: fixed;
+    top: 70px;
+    left: 0;
+    height: 180px;
+    width: 100%;
+    margin-left: -100%;
+    transition: all .3s linear;
+    background-color: #127E6E;
+    z-index: 100;
+    line-height: 55px;
+    float: right;
+  }
+  .mainNav.show{
+    margin-left: 0;
+  }
+  .navLinks{
+    background-color: #127E6E;
+    display: flex;
+    flex-direction: column;
+    height: 70px;
+  }
+  .linkItem{
+    color: #F7E300;
+    transition: 0.6ms;
+    text-decoration: none;
+    font-family:'Montserrat', sans-serif;
+    position: relative;
+    justify-content: right;
+    padding-left: 30px;
+  }
+  .linkItem::after {
+    position: absolute;
+    content: "";
+    background-color: #F7E300;
+    bottom: -5px;
+    left: 0;
+    width: 0%;
+    height: 3px;
+    transition: 0.3s ease all;
+  }
+  .linkItem:hover::after {
+    width: 100%;
+  }
+  .buttonMenu{
+    z-index: 200;
+    width: 40px;
+    height: 40px;
+    border: none;
+    display: flex;
+    background: none;
+    flex-direction: column; /*pondra un span debajo del otro*/
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  .buttonMenu span{
+    width: 37px;
+    height: 4px;
+    margin-bottom: 5px;
+    position: relative;
+    background: #F7E300;
+    border-radius: 3px;
+    transform-origin: 4px 0px;
+    transition: all .2s linear; /*creamos la linea debajo de cada link*/
+  }
+  /*Con los span dibujamos la x para cerrar*/
+  .buttonMenu.close span {
+    opacity: 1;
+    transform: rotate(45deg) translate(0px, 0px);
+    background: #127E6E;
+  }
+
+  .buttonMenu.close span:nth-child(2){
+    transform: rotate(-45deg) translate(-8px, 5px);
+  }
+  .buttonMenu.close span:nth-child(3){
+    display: none;
+  }
+  @media screen and (min-width:760px) {
+    .buttonMenu{
+      display: none;
+    }
+
+      .mainNav{
+        position: static;
+        margin-left: 0;
+        flex-basis: 70%;
+        height: 100%;
+      }
+
+      .mainLogo{
+        block-size:60px; 
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .navLinks{
+        width: 100%;
+        flex-direction: row;
+        align-items: center;
+        justify-content:end;
+      }
+
+      .linkItem{
+        display: inline-block;
+        margin-top: 0;
+        margin-right: 2rem;
+      }
+
+      h1 {
+        font-family: 'Bebas Neue', cursive;
+        font-size: 60px;
+        padding: 2%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      #enterHere {
+        background-color: #127E6E;
+        color: aliceblue;
+        font-size: 30px;
+        padding: 20px;
+        padding-right: 80px;
+        padding-left: 80px;
+        border-radius: 50px;  
+        border-color: aliceblue;
+        font-family: 'Montserrat', sans-serif;
+      }
+    
+      .absolutePageHome {
+        right: 0;
+        position: absolute;
+        margin-top: 10%;
+      }
+    
+    }
+.selectorBox{
+  justify-content: space-around;
+
+}
+
+.pokeCards{
+  margin: 2.5rem 1rem 2.5rem 1rem;
+}
+
+body{
+    background: url(css/fondo_pokebook.jpeg);
+    background-repeat:
+    no-repeat;
+    background-size: 100% 100%;
+}
+
+/*Página1 - Home*/
+
+.containerOne{
+    display: block;
+    margin-left:
+    auto;
+    margin-right:
+    auto;
+    text-align: center;
+}
+
+
+
+
+
+#pag1Sec2 {
+    overflow: hidden;
+}
+
+
+
+/*Página2 - Pokedex*/
+
+
+#imagenPokedex{
+    padding: 10px;
+    block-size: 90px;
+    margin-left:auto;
+    margin-right:auto;
+    display: flex;
+}
+
+.containerTwo {
+    display: none;
+}
+
+.pokeCards {
+    margin: 1rem;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #f7e30000;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.styleForImageContainer{
+    background-color: whitesmoke;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.stylePokemon{
+    display: flex;
+}
+
+#namePokemon{
+    color: #074d40;
+    font-family: bebas Neue;
+    font-size: 200%;
+}
+
+.selectorBox {
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+}
+
+#headerPokedex {
+    background-color: #fae478;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+select{
+  margin: 5px 20px 5px 20px;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+#typesOfPokemon{
+    background-color:#fae478;
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: medium;
+    border-radius: 10px;
+    position:relative;
+}
+
+#numPokemon{
+    font-weight: bold;
+    font-size: 150%;
+}
+.headerOrder{
+  position: fixed 100%;
+  background-color: #fae478;
+  text-align: center;
+}
+
+
+.orderOfPokemon {
+  background-color:#fae478;
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: medium;
+    border-radius: 10px;
+    position:relative;
+     
+}
+#headerRegion{
+  position: fixed 100%;
+  background-color: #fae478;
+  text-align: center;
+}
+#regionOfPokemon{
+  background-color:#fae478;
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: medium;
+    border-radius: 10px;
+    position:relative;
+}
+
+/*Página3 - Calculo*/
+
+.containerThree {
+    display: none;
+}
+
+.funFact{
+  width: 100%;  
+    height: 30em;
+    padding: 0;
+    display: inline-table;
+}
+
+
+footer {
+    width: 100%;
+    position: absolute;
+    background-color: #127E6E;
+}
+
+footer p {
+    padding-top: 10px;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    color: #FAE478;
+    font-family: "calibri";
+}
+
+footer .networkIcon {
+    display:
+    flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.visualizatorOfCuriosities {
+  height: 400px;
+  width: auto;
+  background-color: #F7E300;
+}
